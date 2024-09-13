@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "productName": "Sauce Labs Backpack",
+      "productPrice": "$29.99"
+    },
+    {
+      "productName": "Sauce Labs Fleece Jacket",
+      "productPrice": "$49.99"
+    },
+    {
+      "productName": "Sauce Labs Onesie",
+      "productPrice": "$7.99"
+    }
+  ],
+  "orderInfo": {
+    "firstName": "Aditya",
+    "lastname": "Panwar",
+    "postalCode": "11002"
+  },
+  "productData": {
+    "itemName": "Sauce Labs Bike Light",
+    "itemDesc": "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.",
+    "itemPrice": "$9.99"
+  }
+}
