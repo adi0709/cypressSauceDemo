@@ -31,7 +31,7 @@ class LoginPage {
   }
 
   //Validating unsuccessful login
-  validateUnsuccessfulLogin() {
+  validateLockedOutUserLogin() {
     cy.get('[data-test="error"]')
       .should("exist")
       .and("be.visible")
@@ -83,6 +83,16 @@ class LoginPage {
       .and("have.text", "Swag Labs");
     cy.get('[data-test="username"]').should("exist").and("be.visible");
     cy.get('[data-test="password"]').should("exist").and("be.visible");
+  }
+
+  //Validating unsuccessful login
+  validateUnsuccessfulLogin() {
+    cy.get('[data-test="error"]')
+      .should("exist")
+      .and("be.visible")
+      .contains(
+        "Epic sadface: Username and password do not match any user in this service"
+      );
   }
 }
 const login = new LoginPage();

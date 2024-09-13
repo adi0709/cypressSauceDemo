@@ -23,7 +23,7 @@ When("invalid credential are entered", (datatable) => {
 });
 
 Then("The user is unable to login", () => {
-  login.validateUnsuccessfulLogin();
+  login.validateLockedOutUserLogin();
 });
 
 And("the logout button is clicked", () => {
@@ -31,4 +31,8 @@ And("the logout button is clicked", () => {
 });
 Then("the user is successfully logged out", () => {
   login.validateLogout();
+});
+
+Then("the user gets a message for incorrect credentials", () => {
+  login.validateUnsuccessfulLogin();
 });

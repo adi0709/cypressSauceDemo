@@ -22,7 +22,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 164000000
+              "duration": 53000000
             }
           },
           {
@@ -49,7 +49,7 @@
             "name": "valid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 575000000
+              "duration": 568000000
             }
           },
           {
@@ -59,7 +59,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 110000000
+              "duration": 84000000
             }
           },
           {
@@ -69,16 +69,16 @@
             "name": "The user is successfully logged in",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 3000000
             }
           }
         ]
       },
       {
-        "id": "the-user-want-to-login-into-and-logout-of-the-site-with-valid-data;log-into-the-website-with-incorrect-user-data",
+        "id": "the-user-want-to-login-into-and-logout-of-the-site-with-valid-data;log-into-the-website-with-locked-out-user",
         "keyword": "Scenario",
         "line": 14,
-        "name": "Log into the website with Incorrect user data",
+        "name": "Log into the website with Locked out user",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -89,7 +89,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 110000000
+              "duration": 80000000
             }
           },
           {
@@ -116,7 +116,7 @@
             "name": "invalid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 625000000
+              "duration": 591000000
             }
           },
           {
@@ -126,7 +126,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 106000000
+              "duration": 95000000
             }
           },
           {
@@ -136,7 +136,74 @@
             "name": "The user is unable to login",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "the-user-want-to-login-into-and-logout-of-the-site-with-valid-data;log-into-the-website-with-incorrect-user-credentials",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Log into the website with incorrect user credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user navigate to the Website",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "standard_user",
+                      "Incorrect_Password"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 22,
+            "name": "invalid credential are entered",
+            "result": {
+              "status": "passed",
+              "duration": 660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User click on sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the user gets a message for incorrect credentials",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
             }
           }
         ]
@@ -144,7 +211,7 @@
       {
         "id": "the-user-want-to-login-into-and-logout-of-the-site-with-valid-data;logout-of-the-website",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 28,
         "name": "Logout of the website",
         "tags": [],
         "type": "scenario",
@@ -156,7 +223,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 78000000
+              "duration": 72000000
             }
           },
           {
@@ -179,41 +246,41 @@
               }
             ],
             "keyword": "And ",
-            "line": 23,
+            "line": 29,
             "name": "valid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 599000000
+              "duration": 571000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 26,
+            "line": 32,
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 91000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 27,
+            "line": 33,
             "name": "the logout button is clicked",
             "result": {
               "status": "passed",
-              "duration": 461000000
+              "duration": 490000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 28,
+            "line": 34,
             "name": "the user is successfully logged out",
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 25000000
             }
           }
         ]

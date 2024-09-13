@@ -18,6 +18,12 @@ Feature: The user want to login into and logout of the site with valid data
     And User click on sign in button
     Then The user is unable to login
 
+  Scenario: Log into the website with incorrect user credentials
+    When invalid credential are entered
+      | email           | password     |
+      | standard_user   | Incorrect_Password |
+    And User click on sign in button
+    Then the user gets a message for incorrect credentials
 
   Scenario: Logout of the website
     And valid credential are entered
