@@ -12,7 +12,7 @@ Feature: The user want to login into and logout of the site with valid data
 
 
   Scenario: Log into the website with Locked out user
-    When invalid credential are entered
+    When the credential of locked user are entered
       | email           | password     |
       | locked_out_user | secret_sauce |
     And User click on sign in button

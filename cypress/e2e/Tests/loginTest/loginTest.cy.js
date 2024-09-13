@@ -16,6 +16,12 @@ Then("The user is successfully logged in", () => {
   login.validateLogin();
 });
 
+When("the credential of locked user are entered", (datatable) => {
+  datatable.hashes().forEach((element) => {
+    login.enterUserNamePassword(element.email, element.password);
+  });
+});
+
 When("invalid credential are entered", (datatable) => {
   datatable.hashes().forEach((element) => {
     login.enterUserNamePassword(element.email, element.password);

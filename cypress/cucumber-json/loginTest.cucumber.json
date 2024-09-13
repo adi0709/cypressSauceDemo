@@ -22,7 +22,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 220000000
+              "duration": 68000000
             }
           },
           {
@@ -49,7 +49,7 @@
             "name": "valid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 580000000
+              "duration": 560000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "The user is successfully logged in",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           }
         ]
@@ -89,7 +89,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 70000000
             }
           },
           {
@@ -113,10 +113,10 @@
             ],
             "keyword": "When ",
             "line": 15,
-            "name": "invalid credential are entered",
+            "name": "the credential of locked user are entered",
             "result": {
               "status": "passed",
-              "duration": 603000000
+              "duration": 611000000
             }
           },
           {
@@ -126,7 +126,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 106000000
+              "duration": 92000000
             }
           },
           {
@@ -136,7 +136,7 @@
             "name": "The user is unable to login",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 11000000
             }
           }
         ]
@@ -156,7 +156,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 79000000
+              "duration": 78000000
             }
           },
           {
@@ -183,7 +183,7 @@
             "name": "invalid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 660000000
+              "duration": 685000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 106000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "the user gets a message for incorrect credentials",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 14000000
             }
           }
         ]
@@ -223,7 +223,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 67000000
+              "duration": 81000000
             }
           },
           {
@@ -250,7 +250,7 @@
             "name": "valid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 576000000
+              "duration": 585000000
             }
           },
           {
@@ -260,7 +260,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 110000000
             }
           },
           {
@@ -270,7 +270,7 @@
             "name": "the logout button is clicked",
             "result": {
               "status": "passed",
-              "duration": 496000000
+              "duration": 482000000
             }
           },
           {
@@ -280,7 +280,7 @@
             "name": "the user is successfully logged out",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 36000000
             }
           }
         ]
