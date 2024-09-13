@@ -22,7 +22,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 166000000
+              "duration": 61000000
             }
           },
           {
@@ -49,7 +49,7 @@
             "name": "valid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 583000000
+              "duration": 579000000
             }
           },
           {
@@ -59,7 +59,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 112000000
+              "duration": 95000000
             }
           },
           {
@@ -99,7 +99,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 66000000
             }
           },
           {
@@ -126,7 +126,7 @@
             "name": "valid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 609000000
+              "duration": 593000000
             }
           },
           {
@@ -136,7 +136,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 110000000
+              "duration": 100000000
             }
           },
           {
@@ -146,7 +146,7 @@
             "name": "a product is clicked",
             "result": {
               "status": "passed",
-              "duration": 79000000
+              "duration": 80000000
             }
           },
           {
@@ -156,7 +156,7 @@
             "name": "the product's information is displayed",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 13000000
             }
           }
         ]
@@ -176,7 +176,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 58000000
+              "duration": 59000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "valid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 610000000
+              "duration": 585000000
             }
           },
           {
@@ -213,7 +213,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 106000000
+              "duration": 90000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "the user add below products to cart",
             "result": {
               "status": "passed",
-              "duration": 273000000
+              "duration": 264000000
             }
           },
           {
@@ -262,7 +262,7 @@
             "name": "3 products get added to the cart",
             "result": {
               "status": "passed",
-              "duration": 99000000
+              "duration": 119000000
             }
           }
         ]

@@ -22,7 +22,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 53000000
+              "duration": 220000000
             }
           },
           {
@@ -49,7 +49,7 @@
             "name": "valid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 568000000
+              "duration": 580000000
             }
           },
           {
@@ -59,7 +59,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 84000000
+              "duration": 91000000
             }
           },
           {
@@ -89,7 +89,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 85000000
             }
           },
           {
@@ -116,7 +116,7 @@
             "name": "invalid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 591000000
+              "duration": 603000000
             }
           },
           {
@@ -126,7 +126,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 106000000
             }
           },
           {
@@ -136,7 +136,7 @@
             "name": "The user is unable to login",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 14000000
             }
           }
         ]
@@ -156,7 +156,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 75000000
+              "duration": 79000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 96000000
+              "duration": 85000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "the user gets a message for incorrect credentials",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 11000000
             }
           }
         ]
@@ -223,7 +223,7 @@
             "name": "the user navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 67000000
             }
           },
           {
@@ -250,7 +250,7 @@
             "name": "valid credential are entered",
             "result": {
               "status": "passed",
-              "duration": 571000000
+              "duration": 576000000
             }
           },
           {
@@ -260,7 +260,7 @@
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 104000000
             }
           },
           {
@@ -270,7 +270,7 @@
             "name": "the logout button is clicked",
             "result": {
               "status": "passed",
-              "duration": 490000000
+              "duration": 496000000
             }
           },
           {
@@ -280,7 +280,7 @@
             "name": "the user is successfully logged out",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 28000000
             }
           }
         ]
