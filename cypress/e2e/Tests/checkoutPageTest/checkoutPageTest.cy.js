@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 import { When, Then, And } from "cypress-cucumber-preprocessor/steps";
-import checkout from "../../Pages/checkoutPage";
+import checkout from "../../../POM/Pages/checkoutPage";
 
 When("the user click's on checkout", () => {
   checkout.clickCheckout();

@@ -15,6 +15,6 @@ Make sure to install the latest version of cypress in the folder. Use the comman
 Make sure to update all the dependencies `npm install`
 
 Execute the UI tests by running the following commands
-`npm run cy:testReport`
+`npm run cy:tests`
 
 `npm run cy:testReport` will execute the tests and a HTML test report will be displayed automatically.

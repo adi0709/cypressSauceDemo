@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
-import login from "../../Pages/loginPage";
+import login from "../../../POM/Pages/loginPage";
 Given("the user navigate to the Website", () => {
   login.visitURL();
 });

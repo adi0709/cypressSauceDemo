@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 import { When, Then } from "cypress-cucumber-preprocessor/steps";
-import product from "../../Pages/productPage";
-import productInfo from "../../Pages/productInfoPage";
-import checkoutPage from "../../Pages/checkoutPage";
+import product from "../../../POM/Pages/productPage";
+import productInfo from "../../../POM/Pages/productInfoPage";
+import checkoutPage from "../../../POM/Pages/checkoutPage";
 
 Then("the products are visible", () => {
   product.validateProducts();
