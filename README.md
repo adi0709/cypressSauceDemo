@@ -14,6 +14,7 @@ Make sure to install the latest version of cypress in the folder. Use the comman
 
 Make sure to update all the dependencies `npm install`
 
+**#Executing tests and Viewing reports**
 Execute the UI tests by running the following commands
 `npm run cy:tests`
 
