@@ -1,21 +1,33 @@
 # **SauceDemoCypress**
 
-This repo contains automation tests for the Sauce Demo
+This repo contains automation tests for the [Sauce Demo](https://www.saucedemo.com/) platform using Cypress
 
-**#Setting Up**
+## **#Requirments**
 
-Download the repo to your local system.
-git clone `https://github.com/adi0709/SauceDemoCypress.git`
+- Node js -> v.16 or above
+- VS Code
 
-Make sure you have node and npm installed.
+## **#Setting Up**
 
-Make sure to install the latest version of cypress in the folder. Use the commands:
-`npm install cypress --save-dev`
+- Download the repo to your local system.
 
-Make sure to update all the dependencies `npm install`
+```
+git clone https://github.com/adi0709/cypressSauceDemo.git
+```
 
-Execute the UI tests by running the following commands
-`npm run cy:tests`
+- Make sure to update all the dependencies
+
+```
+npm install
+```
+
+## **#Executing tests and Viewing reports**
+
+- Execute the tests by running the following commands
+
+```javascript
+npm run cy:tests
+```
 
 - To execute the tests and display the report automatically of the execution.
 
